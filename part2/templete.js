@@ -85,6 +85,7 @@ const legend = svg.selectAll(".legend")
     .attr("class", "legend")
     .attr("transform", (d, i) => "translate(0," + i * 20 + ")");
 
+
 });
 
 iris.then(function(data) {
